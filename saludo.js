@@ -1,1 +1,1 @@
-alert("mensaje de alerta");
+object.onclick = function(){alert};
