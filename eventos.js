@@ -1,5 +1,10 @@
-document.getElementById("btn").addEventListener('click', myFunction());
+document.addEventListener('DOMContentLoaded', function(){
+  
+const divElement = document.getElementById('miDiv');
 
-function myFunction(){
-  alert('Soy el div');
-}
+divElement.addEventListener('click', () => {
+  
+    alert('¡Hola soy el div!');
+});
+
+});
